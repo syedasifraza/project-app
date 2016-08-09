@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.project.app.AppComponent" activate="activate" deactivate="deactivate">
+    <implementation class="org.project.app.AppComponent"/>
+    <property name="service.pid" value="org.project.app.AppComponent"/>
+</scr:component>

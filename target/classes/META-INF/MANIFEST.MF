@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1470728715489
+Build-Jdk: 1.8.0_91
+Built-By: root
+Bundle-ClassPath: WEB-INF/classes
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-ManifestVersion: 2
+Bundle-Name: project-app
+Bundle-SymbolicName: org.project.project-app
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.project.app;uses:="javax.ws.rs,javax.ws.rs.core,org.
+ onlab.rest,org.onosproject.rest";version="1.0.0"
+Import-Package: com.fasterxml.jackson.databind;version="[2.7,3)",com.fas
+ terxml.jackson.databind.node;version="[2.7,3)",javax.ws.rs;version="[2.
+ 0,3)",javax.ws.rs.core;version="[2.0,3)",org.onlab.rest;version="[1.7,2
+ )",org.onosproject.net;version="[1.7,2)",org.onosproject.net.host;versi
+ on="[1.7,2)",org.onosproject.net.link;version="[1.7,2)",org.onosproject
+ .rest;version="[1.7,2)",org.slf4j;version="[1.6,2)",org.glassfish.jerse
+ y.servlet;version="[2.22,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.project.app.ApiDocRegistrator.xml,OSGI-I
+ NF/org.project.app.AppComponent.xml
+Tool: Bnd-3.0.0.201509101326
+Web-ContextPath: /onos/project-app
