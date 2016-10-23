@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1470728715489
-Build-Jdk: 1.8.0_91
+Bnd-LastModified: 1477197396290
+Build-Jdk: 1.8.0_101
 Built-By: root
 Bundle-ClassPath: WEB-INF/classes
 Bundle-Description: ONOS OSGi bundle archetype
@@ -14,10 +14,11 @@ Export-Package: org.project.app;uses:="javax.ws.rs,javax.ws.rs.core,org.
 Import-Package: com.fasterxml.jackson.databind;version="[2.7,3)",com.fas
  terxml.jackson.databind.node;version="[2.7,3)",javax.ws.rs;version="[2.
  0,3)",javax.ws.rs.core;version="[2.0,3)",org.onlab.rest;version="[1.7,2
- )",org.onosproject.net;version="[1.7,2)",org.onosproject.net.host;versi
- on="[1.7,2)",org.onosproject.net.link;version="[1.7,2)",org.onosproject
- .rest;version="[1.7,2)",org.slf4j;version="[1.6,2)",org.glassfish.jerse
- y.servlet;version="[2.22,3)"
+ )",org.onosproject.codec;version="[1.7,2)",org.onosproject.net;version=
+ "[1.7,2)",org.onosproject.net.host;version="[1.7,2)",org.onosproject.ne
+ t.intent;version="[1.7,2)",org.onosproject.net.link;version="[1.7,2)",o
+ rg.onosproject.rest;version="[1.7,2)",org.slf4j;version="[1.6,2)",org.g
+ lassfish.jersey.servlet;version="[2.22,3)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Service-Component: OSGI-INF/org.project.app.ApiDocRegistrator.xml,OSGI-I
  NF/org.project.app.AppComponent.xml

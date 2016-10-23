@@ -25,7 +25,7 @@ import org.onosproject.rest.ApiDocProvider;
 public class ApiDocRegistrator extends AbstractApiDocRegistrator {
     public ApiDocRegistrator() {
         super(new ApiDocProvider("/onos/project-app",
-                                 "Sample app REST API",
+                                 "Path app REST API",
                                  ApiDocRegistrator.class.getClassLoader()));
     }
 }

@@ -32,9 +32,9 @@
         <onos.app.title>project App</onos.app.title>
         <onos.app.origin>Foo, Inc.</onos.app.origin>
         <onos.app.category>default</onos.app.category>
-        <api.description>Sample application REST API</api.description>
+        <api.description>Path application REST API</api.description>
         <web.context>/onos/project-app</web.context>
-        <api.title>Sample app REST API</api.title>
+        <api.title>Path app REST API</api.title>
         <onos.app.url>http://onosproject.org</onos.app.url>
         <api.package>org.project.app</api.package>
         <onos.app.readme>ONOS OSGi bundle archetype.</onos.app.readme>
